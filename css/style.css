@@ -1,0 +1,593 @@
+html{
+    font: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.firstHeader{
+    background: rgb(221, 248, 219);
+    border-bottom: 1px solid green;
+
+}
+
+.headerText{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    color: rgb(10, 57, 10);
+    font-size: larger;
+}
+
+header{
+    background: green;
+    position: sticky;
+    width: 100%;  
+    top: 0;
+    z-index: 3;
+}
+
+
+
+
+.navlist ul li{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    margin-right: 0;
+    margin-left: 0;
+    
+
+}
+
+.navlist ul li a{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    margin-right: 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.black{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1.5px solid #DFF3E4;
+    color: #DFF3E4;
+    margin-right: 2rem;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+
+.black:hover{
+   text-decoration: none;
+    color: #252422;
+    background: #DFF3E4;
+    transition: 1s ease;
+}
+.home{
+    color: #252422;
+    background: #DFF3E4;    
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1.5px solid #DFF3E4;
+    
+    margin-right: 2rem;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: 500;
+}
+.home:hover{
+    color: #DFF3E4;
+    background: green;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+}
+
+/* Post Slider */
+.post-slider{
+    border: 1px solid red;
+}
+
+.post-slider .post-wrapper{
+    width: 84%;
+    height: 350px;
+    margin-top: 0px auto;
+    border: 1px dashed red;
+}
+
+.post-slider .post-wrapper .post{
+    background-color: green;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+}
+
+.ambassadors{
+    box-shadow: 0px 0px 5px grey;
+    margin: auto;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 3rem;
+    
+}
+
+.ambassadors p{
+    text-align: justify;
+    font-size: 10px;
+}
+.samicamb{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 5px 5px grey;
+}
+
+.howTo{
+    background: green;
+    border-radius: 1rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    width: 100%;
+}
+
+.contain h4{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contain{
+    border-right: 2px solid #DFF3E4;
+    border-top: 1px solid white;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid white;
+    border-radius: 9px;
+    
+    margin-top: 7px;
+    
+}
+
+.howToParagraph{
+    color: red;
+}
+
+
+.howToVideos{
+    /* width: 20rem; */
+    /* height: 100%; */
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(18, 91, 34);
+    border: 5px solid white;
+    margin:     auto;
+    height: 100%;
+
+}
+
+.howToVideos:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 5px grey;
+}
+
+.contain p{
+    color: green;
+    font-family: cursive;
+    font-size: smaller;
+    font-weight: normal;
+    margin-top: 1rem;
+    
+}
+
+.contain .howToParagraph{
+    background: white;
+    text-align: justify;
+    margin-top: 1rem;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.howToParagraph p{
+    margin: 1rem;
+    padding: 1rem ;
+}
+
+/* All a tags on focus dey gimme problem jare, make i kuku commot all expecially the social media icons */
+a:focus{
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/* That's done */
+
+footer{
+    background: rgb(30, 63, 30);
+    height: 5rem;
+    color: white;
+
+}
+.footerArea h5{
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive;
+    padding-top: 2rem;
+}
+
+
+/* Registration Without Referral */
+.registrationForm{
+    width: 400px;
+    margin: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+    background: mediumaquamarine;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.formGroup{
+    width: 100%;
+    border: 1px solid green;
+    border-radius: 0.6rem;
+    height: 3rem;
+    padding: 1rem;
+    color: green;
+}
+
+.formGroup:focus{
+    outline: none;
+
+}
+
+.formGroup:hover{
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 5px grey;
+
+}
+
+.theClass{
+    /* height: 700px; */
+}
+.theVideo{
+    height: 150px;
+    width: 300px;
+    margin: auto;
+}
+
+.location{
+    height: 500px;
+    margin: 2rem;
+}
+.location iframe{
+    border: 2px solid green;
+    border-radius: 7px;
+}
+.contact{
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 2rem;
+    background: #DFF3E4;
+}
+
+.contactUs{
+    background: url(../images/pexels-chepté-cormani-1416530.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.directionExplained{
+    margin-top: 2rem;
+    padding: 2rem;
+    background: green;
+    color: white;
+    border: 2px white solid;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.directionExplained p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.directionExplained .message{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactform{
+    border: 1px solid green;
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    border: none;
+    box-shadow: 0px 5px 5px grey;
+    margin-bottom: 2rem;
+}
+
+.formInput{
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    background: green;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-transform: capitalize;
+    
+}
+
+.formLabel{
+    margin-top: 2rem;
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.btn {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+  .btn:hover{
+      background: rgb(1, 83, 1);
+  }
+
+  /* .contactform {
+    position: relative;
+    animation-name: example;
+    animation-duration: 20s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
+
+
+.samicads{
+    background: white;
+    box-shadow: 0px 2px 2px grey;
+    padding: 2  rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+
+
+}
+
+.seemore{
+    display: flex; 
+    justify-content: space-around; 
+    flex-direction: column;
+    margin: auto;
+}
+
+.adsDisplayImg{
+    border-radius: 2rem; 
+    border: 2px solid white; 
+    box-shadow: 0px 5px 5px grey; 
+    display: flex; 
+    justify-content: space-around;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+
+}
+
+.samicads h2{
+
+    text-align: center; margin-top:2rem; font-family: cursive; font-size: 2rem; font-weight: bold; font-style: oblique;
+}
+.samicads p{
+
+    text-align: justify; 
+    margin-top:1rem; 
+    font-family: monospace; 
+    font-size: 1rem; 
+    font-weight: bold; 
+
+}
+
+.colcontent{
+    background: rgb(252, 250, 250);
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0px 2px 2px grey;
+    margin-top: 2rem;
+}
+
+.left-column{
+    float: left;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right-column{
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.card{
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 1rem;
+
+}
+
+.search{
+    color: green;
+    font-family: monospace;
+}
+
+.popularPostsImg{
+    margin: 2rem;
+    filter: grayscale(1);
+    border-radius: 5px;
+    transition: 2s ease;
+}
+
+.popularPostsImg:hover{
+    filter: grayscale(0);
+}
+.mainNews{
+    padding: 2rem;
+}
+
+.newsImg{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.team1{
+    background: #f1f1f1;
+}
+
+.ourImage{
+    border: 5px solid white;
+    border-radius: 500px;
+    position: absolute;
+    height: 80px;
+    width: 100px;
+}
+
+.single-top-feature {
+    padding: 45px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 2px 3px grey;
+    height: 150px;
+    text-align: center;
+
+}
+
+
+.container{
+    padding: 20px;
+}
+.fa-heart{
+    color: red;
+}
+
+.bannerArea{
+    width: 70%;
+    position: relative;
+    color: white;
+    background: green;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.team{
+    width: 90%;
+    margin-top: 0;
+}
+
+.team img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.aboutBody{
+    background: url(../images/pexels-fauxels-3184339.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    height: 500%;
+    width: 100%;
+    transition: 5s;
+}
+.aboutBody:hover{
+    background: url(../images/pexels-fauxels-3184339.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0);
+    height: 500%;
+    width: 100%;
+}
+
+.team h2{
+    margin-top: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.team p{
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+.team p ul li p{
+    color: white;
+    font-size: 500px;
+}
